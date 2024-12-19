@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    margin-top: 100px;
+}
+.aboutme{
+    color: #0F1C45;
+    width: 100%;
+    min-height: 100vh;
+    background: #CBC5EA;
+    display: flex;
+    align-items: center;
+    gap: 8em;
+    padding: 30px 12% 0;
+}
+.about-content{
+    max-width: 600px;
+    padding: 25px 30px;
+    border: 5px solid #0F1C45;
+    border-radius: 30px;
+    background-color: #CBC5EA;
+}
+.about-content h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.about-content p{
+    font-size: 18px ;
+    margin: 25px 0 30px;
+}
+.about-img img{
+    margin-top: -120px;
+    border-radius: 50px;
+    width: 475px;
+    border: 3px solid #6FFFE9;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+.about-img img:hover{
+    box-shadow: 0 0 25px #394669;
+}
+aboutme{
+    background-color: #CBC5EA;
+}
+.abody{
+    background-color: #CBC5EA;
+}
+div h1{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+div h1:hover{
+    text-shadow: 0 0 25px #0F1C45;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #E85C16;
+}
+::-webkit-scrollbar-track{
+    background-color: #394669;
+    width: 10px;
+}
